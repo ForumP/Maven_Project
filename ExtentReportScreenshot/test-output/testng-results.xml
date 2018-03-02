@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17444" started-at="2018-03-02T15:04:42Z" finished-at="2018-03-02T15:04:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17444" started-at="2018-03-02T15:04:42Z" finished-at="2018-03-02T15:04:59Z">
+      <class name="CoinsquareTest">
+        <test-method status="PASS" signature="SetExtent()[pri:0, instance:CoinsquareTest@343f4d3d]" name="SetExtent" is-config="true" duration-ms="88" started-at="2018-03-02T15:04:42Z" finished-at="2018-03-02T15:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetExtent -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:CoinsquareTest@343f4d3d]" name="SetUp" is-config="true" duration-ms="6664" started-at="2018-03-02T15:04:42Z" finished-at="2018-03-02T15:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="CoinsquareTitleTest()[pri:0, instance:CoinsquareTest@343f4d3d]" name="CoinsquareTitleTest" duration-ms="25" started-at="2018-03-02T15:04:48Z" finished-at="2018-03-02T15:04:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<Coinsquare - Buy Bitcoin, Ethereum and Litecoin in Canada> but was:<Coinsquare - Buy Bitcoin, Ethereum and Litecoin in>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<Coinsquare - Buy Bitcoin, Ethereum and Litecoin in Canada> but was:<Coinsquare - Buy Bitcoin, Ethereum and Litecoin in>
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+at CoinsquareTest.CoinsquareTitleTest(CoinsquareTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CoinsquareTitleTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:CoinsquareTest@343f4d3d]" name="teardown" is-config="true" duration-ms="1228" started-at="2018-03-02T15:04:49Z" finished-at="2018-03-02T15:04:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CoinsquareTitleTest status=FAILURE method=CoinsquareTest.CoinsquareTitleTest()[pri:0, instance:CoinsquareTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:CoinsquareTest@343f4d3d]" name="SetUp" is-config="true" duration-ms="3709" started-at="2018-03-02T15:04:50Z" finished-at="2018-03-02T15:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:CoinsquareTest@343f4d3d]" name="TestCase2" duration-ms="1" started-at="2018-03-02T15:04:53Z" finished-at="2018-03-02T15:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:CoinsquareTest@343f4d3d]" name="teardown" is-config="true" duration-ms="496" started-at="2018-03-02T15:04:53Z" finished-at="2018-03-02T15:04:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase2 status=SUCCESS method=CoinsquareTest.TestCase2()[pri:0, instance:CoinsquareTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:CoinsquareTest@343f4d3d]" name="SetUp" is-config="true" duration-ms="4362" started-at="2018-03-02T15:04:54Z" finished-at="2018-03-02T15:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:CoinsquareTest@343f4d3d]" name="Testcase1" duration-ms="1" started-at="2018-03-02T15:04:58Z" finished-at="2018-03-02T15:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:CoinsquareTest@343f4d3d]" name="teardown" is-config="true" duration-ms="644" started-at="2018-03-02T15:04:58Z" finished-at="2018-03-02T15:04:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Testcase1 status=SUCCESS method=CoinsquareTest.Testcase1()[pri:0, instance:CoinsquareTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:CoinsquareTest@343f4d3d]" name="endReport" is-config="true" duration-ms="207" started-at="2018-03-02T15:04:59Z" finished-at="2018-03-02T15:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- CoinsquareTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
